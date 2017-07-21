@@ -1,0 +1,16 @@
+{
+  "name": "puns-server",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "rxjs": "^5.0.1"
+  },
+  "devDependencies": {
+
+  },
+  "scripts": {
+
+  }
+}

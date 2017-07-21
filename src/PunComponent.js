@@ -67,7 +67,8 @@ class PunComponent extends Component {
 			.then(puns => this.setState({ puns }));
 		
 		this.setState({
-			keyword: ''
+			keyword: '',
+			suggestions: []
 		});
 	}
 

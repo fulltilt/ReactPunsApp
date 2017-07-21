@@ -20,9 +20,11 @@ const ResultsComponent = ({ suggestions, puns }) => (
 			<h2 style={h2Style}>Puns Found</h2>
 
 			<div>
-	      {puns.map((pun, i) => (
-	        <p key={i}>{pun.pun} {pun.answer}</p>
-	      ))}
+	      {
+	      	puns.length > 0 ? puns.map((pun, i) => (
+	        	<p key={i}>{pun.pun} {pun.answer}</p>
+	      	)) : 'No puns found'
+	      }
 	    </div>
 	  </div>
 	</div>
